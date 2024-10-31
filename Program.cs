@@ -27,5 +27,8 @@ switch (n)
     case 7:
         Console.WriteLine("Воскресение-" + "Выходной");
         break;
+    default:
+        Console.WriteLine("Не существует");
+        break;
 }
 Console.ReadLine();
